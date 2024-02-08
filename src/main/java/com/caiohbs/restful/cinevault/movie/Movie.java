@@ -15,10 +15,10 @@ public class Movie {
     @GeneratedValue
     private Integer id;
     @NotNull
-    @Size(min=1, max=30, message="'original_title' has to be between 1-30 characters")
+    @Size(min=1, max=100, message="'original_title' has to be between 1-100 characters")
     private String originalTitle;
     @NotNull
-    @Size(min=1, max=30, message="'english_title' has to be between 1-30 characters")
+    @Size(min=1, max=1000, message="'english_title' has to be between 1-100 characters")
     private String englishTitle;
     @NotNull
     @Size(min=1, max=700, message="'description' has to be between 1-700 characters")
