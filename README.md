@@ -2,6 +2,17 @@
 
 ![CineVault logo](assets/cinevault_logo.png)
 
+## Status
+
+This project, though in a working state, is currently on hold for the time being.
+
+# Still TODOs
+
+- Implement higher-level security;
+- Implement OpenAI support;
+- Handle documentation;
+- This README.
+
 ## About
 
 CineVault is a RESTful API backend for a movies database written solely in Java.
